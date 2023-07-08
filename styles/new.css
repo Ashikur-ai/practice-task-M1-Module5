@@ -65,6 +65,8 @@ header {
 
 /* main section styles */
 main {
+    margin: 140px 270px;
+
 }
 
 
@@ -74,7 +76,6 @@ main {
 .failure-container {
     display: flex;
     justify-content: space-between;
-    margin: 140px 270px;
     gap: 110px;
     align-items: center;
 }
@@ -95,4 +96,28 @@ ul {
   ul li:before {
     content: '✓';
     margin-right: 5px;
+  }
+
+
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plan-main-title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+
+  .plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .plan-item {
+    text-align: center;
   }
