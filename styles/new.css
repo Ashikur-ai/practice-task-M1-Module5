@@ -17,6 +17,14 @@
     line-height: normal;
 }
 
+.section-title {
+    color:#151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 
 /* header section styles */
 header {
@@ -54,3 +62,37 @@ header {
 .contact-btn {
     text-align: right;
 }
+
+/* main section styles */
+main {
+}
+
+
+
+
+
+.failure-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 270px;
+    gap: 110px;
+    align-items: center;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    margin-right: 5px;
+  }
