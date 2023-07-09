@@ -30,7 +30,7 @@
 header {
     background-image: url('../images/banner/banner3.png');
     height: 100vh;
-    background-repeat: no-repeat;    
+    background-size: cover;
 
 }
 
@@ -46,7 +46,7 @@ header {
 
 
 .header-content {
-    padding: 216px 230px 0px 845px;
+    padding: 216px 230px 0px 945px;
 }
 
 .header-description {
@@ -126,6 +126,7 @@ ul {
   .positive {
     margin: 130px 0px;
     background-image: url('../images/watch.png');
+    background-size: cover;
     border-radius: 8px;
     height: 300px;
   }
